@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- TITLES -->
+    <title>Персональный сайт портфолио - Вячеслав Супрун</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <!-- STYLES-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css"  href="fonts/noto-webfont/noto.css">
+    <link rel="stylesheet" type="text/css"  href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+    
+    
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    
+</head>
+<body>
+   
+    <!-- Шапка -->
+    <div class="header">
+        <div class="header__inner">
+            <nav class="navigation"> 
+               
+                <!-- Navigation icon -->
+                <button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+					<span>toggle menu</span>
+                </button>
+                <!-- // Navigation icon -->
+                
+                <ul class="navigation__list">
+                    <li><a href='#resume'>Резюме</a></li>
+                    <li><a href='#portfolio'>Портфолио</a></li>
+                    <li><a href='#contacts'>Контакты</a></li>
+                </ul>    
+            </nav>
+            <div class="header__centered-content">
+                <div class="user-photo user-photo--shadow">
+                    <img src="usercontent/img/photo-small.jpg" alt="Вячеслав Супрун">
+                </div>
+                <h1 class="header__title">Вячеслав Супрун    </h1>
+                <h2 class="header__subtitle">HTML верстальщик сайтов</h2>
+            </div>
+            
+            <a href="#resume" class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+            </a>
+        </div>
+    </div>
+    <!-- // Шапка -->
+    
+    <!-- Резюме -->
+    <div id="resume" class="section section--bottom-line section--bg-laptop">
+    <div class="container">
+       <div class="row">
+          
+            <!-- Фотография пользователя -->
+           <div class="hidden-xs col-sm-2 col-lg-3">
+                <div class="user-photo user-photo--big">
+                    <img src="usercontent/img/photo-big.jpg" alt="Вячеслав Супрун">
+                </div>              
+           </div>
+           <!-- // Фотография пользователя -->
+           
+           <!-- Резюме пользователя -->
+			<div class="col-sm-10 col-lg-9">
+
+				<div class="heading">Резюме</div>
+
+				<p><strong>Вячеслав Супрун</strong><br>
+				Ростов на дону, Россия</p>
+				<p>В конце 2017г. заинтересовался веб разработкой. После чего «активно занимался самообразованием».</p>
+
+				<!-- Опыт и Образование -->
+				<div class="row">
+					<div class="col-sm-6">
+						
+						<div class="heading heading--medium">
+							Опыт работы
+						</div>
+
+						<ul class="definition-list">
+							<li class="definition-list__item">
+								<div class="definition-list__def">
+									Май 2018г.
+								</div>
+								<div class="definition-list__desc">
+									<p>Работа над макетом - “Organica”.</p>
+								</div>
+							</li>
+							<li class="definition-list__item">
+								<div class="definition-list__def">
+									Июнь 2018г.
+								</div>
+								<div class="definition-list__desc">
+									<p>Работа над макетом - “Аполло”.</p>
+								</div>
+							</li>
+							<li class="definition-list__item">
+								<div class="definition-list__def">
+									Июль - Ноябрь 2018г.
+								</div>
+								<div class="definition-list__desc">
+									<p>Работа над сайтом портфолио и выход на фриланс.</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+					<div class="col-sm-6">
+
+						<div class="heading heading--medium">
+							Образование
+						</div>
+
+						<ul class="definition-list">
+							<li class="definition-list__item">
+								<div class="definition-list__def">
+									Май-Июль 2018г.
+								</div>
+								<div class="definition-list__desc">
+									<p>Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru</p>
+								</div>
+							</li>
+							<li class="definition-list__item">
+								<div class="definition-list__def">
+									Август-Ноябрь 2018г.
+								</div>
+								<div class="definition-list__desc">
+									<p>Курсы "Web-dev" JS, JQwery, PHP, MySQL, Git, Gulp, NPM, Yarn - WebCademy.ru</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- // Опыт и Образование -->
+
+				<a href="https://yadi.sk/d/pjRhCMKRQt8-SQ" class="button" target="_blank" download>
+				    <i class="fa fa-download" aria-hidden="true"></i>
+				    Скачать резюме
+				</a>
+
+			</div>
+			<!-- // Резюме пользователя -->
+		</div>
+	</div>
+	</div>
+   <!-- // Резюме -->
+   
+   <div class="line"></div>
+   
+   	<!-- Портфолио -->
+	<div id="portfolio" class="section section--padding-smaller section--bg-gear">
+		<div class="container">
+			
+			<!-- Заголовок -->
+			<div class="heading heading--center">Мои работы</div>
+			<!-- // Заголовок -->
+			
+			<!-- Фильтр работ -->
+			<div class="filter-block">
+				<ul class="filter-block__block">
+					<li class="filter-block__element">
+						<span class="filter-block__button filter-block__button--active filter" data-filter="all">Все</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".html-css">HTML+CSS</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".bootstrap">Bootstrap</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".tutorial">Учебные</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".payed">На заказ</span>
+					</li>
+				</ul>
+			</div>
+			<!-- // Фильтр работ -->
+
+			<!-- Блок - ряд с работами -->
+			<div class="row" id="portfolio-projects">
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix html-css tutorial">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/organic.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Учебный макет Organica">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_organica.jpg">
+						</div>
+						<div class="portfolio-item__title">
+							<a href="http://winch.zzz.com.ua/Organic-2/" target="_blank">Учебный макет Organica</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка одностраничного сайта по PSD макету.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix bootstrap tutorial">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/apollo.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Учебный макет Аполло">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_apollo.jpg" alt="Учебный макет Аполло">
+						</div>
+						<div class="portfolio-item__title">
+							<a href="http://winch.zzz.com.ua/Apollo-footer/" target="_blank">Учебный макет Аполло</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка лендинга хостинг компании. Мобильная адаптивность.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix bootstrap tutorial">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/portfolio.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Личный сайт портфолио">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_portfolio.jpg" alt="Личный сайт портфолио">
+						</div>
+						<div class="portfolio-item__title">
+							<a href="http://winch.zzz.com.ua/personal/" target="_blank">Личный сайт портфолио</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка личного сайта портфолио на котором вы сейчас находитесь.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix html-css payed">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/car-concept.png" class="fancybox portfolio-item__image__hover" rel="group" title="Промо сайт автомобиля">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_auto.jpg" alt="Промо сайт автомобиля">
+						</div>
+						<div class="portfolio-item__title">
+                            <a href="usercontent/img/full/car-concept.png">Промо сайт автомобиля</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка одностраничного сайта по PSD макету.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix bootstrap payed">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/motorcycles.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Магазин мотоциклов">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_moto.jpg" alt="Магазин мотоциклов">
+						</div>
+						<div class="portfolio-item__title">
+							<a href="usercontent/img/full/motorcycles.jpg">Магазин мотоциклов</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка лендинга для компании Indian Motorcycles.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+				<!-- Работа в портфолио -->
+				<div class="col-sm-4 mix html-css payed">
+					<div class="portfolio-item">
+						<div class="portfolio-item__image">
+							<a href="usercontent/img/full/music.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Магазин аудиотехники">
+								<i class="fa fa-search" aria-hidden="true"></i><br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="usercontent/img/project_music.jpg" alt="Магазин аудиотехники">
+						</div>
+						<div class="portfolio-item__title">
+							<a href="usercontent/img/full/music.jpg">Магазин аудиотехники</a>
+						</div>
+						<div class="portfolio-item__description">
+							Верстка страниц для магазина винтажной аудиотехники.
+						</div>
+					</div>
+				</div>
+				<!-- // Работа в портфолио -->
+
+			</div>
+			<!-- // Блок - ряд с работами -->
+
+		</div>
+	</div>
+	<!-- // Портфолио -->
+   
+   <!-- Контакты -->
+	<div id="contacts" class="block-bg contacts section section--padding-smaller section--bg-cloud">
+		<div class="container">
+			<div class="row">
+				<!-- Контакты - текст -->
+				<div class="col-sm-6">
+
+					<div class="heading heading--white">
+						Контакты
+					</div>
+
+					<div class="contacts__description">
+						<p>Если вы ищите специалиста по верстке сайтов, front-end разработчика в команду или для работы над проектом —  я к вашим услугам.</p>
+					</div>
+
+					<!-- Контактные данные -->
+					<div class="row">
+						<!-- Email Skype -->
+						<div class="col-lg-6">
+
+							<ul class="definition-list">
+								<li class="definition-list__item">
+									<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+										Email
+									</div>
+									<div class="definition-list__desc">
+										<p><a href="https://mail.yandex.ru/?uid=97358813&login=viacheslav-suprun" target="_blank">viacheslav.suprun@yandex.ru</a></p>
+									</div>
+								</li>
+								<li class="definition-list__item">
+									<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+										Skype
+									</div>
+									<div class="definition-list__desc">
+										<p><a href="tel:+79281273228">+7(928)1273228</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- // Email Skype -->
+						<!-- Телефон Адрес -->
+						<div class="col-lg-6">
+							<ul class="definition-list">
+								<li class="definition-list__item">
+									<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+										Телефон
+									</div>
+									<div class="definition-list__desc">
+										<p><a href="tel:+79281273228">+7(928)1273228</a></p>
+									</div>
+								</li>
+								<li class="definition-list__item">
+									<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+										Адрес
+									</div>
+									<div class="definition-list__desc">
+										<p>Россия, Ростов на дону.</p>
+									</div>
+								</li>
+							</ul>	
+						</div>
+						<!-- // Телефон Адрес -->
+					</div>
+					<!-- // Контактные данные -->
+
+					<!-- Социальные сети -->
+					<ul class="definition-list">
+						<li class="definition-list__item">
+							<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+								Социальные сети
+							</div>
+							<div class="definition-list__desc">
+								<div class="social-icons">
+                                    <a href="https://vk.com/id372948519" target="_blank" class="fa fa-vk" aria-hidden="true"></a>
+                                    <!--<a href="https://twitter.com/?lang=ru" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>-->
+                                    <a href="https://www.youtube.com/channel/UCLJb4d7g0ypsKxhllfANKmQ?view_as=subscriber" target="_blank" class="fa fa-youtube" aria-hidden="true"></a>
+                                    <a href="https://www.instagram.com/vyacheslav.v.s.161/?hl=ru" class="fa fa-instagram" target="_blank" aria-hidden="true"></a>
+                                    <!--<a href="https://ru-ru.facebook.com/Fase-book-113427228686588/" class="fa fa-facebook" target="_blank" aria-hidden="true"></a>-->
+                                    <a href="https://github.com/Vyacheslav-073" target="_blank" class="fa fa-github" aria-hidden="true"></a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+					<!-- // Социальные сети -->
+
+				</div>
+				<!-- // Контакты - текст -->
+
+				<!-- Контакты - Форма -->
+				<div class="col-sm-6 wow rollin">
+					<div class="heading heading--medium heading--padding-top heading--white">Связаться со мной</div>
+
+					<form id="contact-form" class="contact-form">
+					
+					    <input type="hidden" name="project_name" value="Мой персональный сайт">
+				        <input type="hidden" name="admin_email" value="viacheslav.suprun@yandex.ru">
+				        <input type="hidden" name="form_subject" value="Сообщение с сайта">    
+					    
+						<input type="text" class="contact-form__input" name="name" placeholder="Имя">
+						<input type="text" class="contact-form__input" name="email" placeholder="Email">
+						
+						<div class="clearfix">
+							<input type="text" class="contact-form__input contact-form__input--half-width" name="skype" placeholder="Skype">
+							<input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
+						</div>
+						
+						<div class="contact-form__bg-pencil">
+							<textarea class="contact-form__textarea" placeholder="Ваше сообщение" name="message" id=""></textarea>
+						</div>
+						
+						<input type="submit" class="contact-form__submit" name="" value="Отправить">
+						
+					</form>
+					
+					<div id="answer"></div>
+					
+				</div>
+				<!-- // Контакты - Форма -->
+			</div>
+		</div>
+	</div>
+	<!-- // Контакты -->
+
+	<!-- Копирайт -->
+	<div class="copyright">
+		<div class="container">
+			<p class="copyright__label">© 2018 Вячеслав Супрун</p>
+			<p>Веб-разработик из Ростова на Дону, занимаюсь версткой и созданием сайтов.</p>
+			<p>Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a href="http://webcademy.ru" target="_blank">WebCademy.ru</a></p>
+		</div>
+	</div>
+	<!-- // Копирайт -->
+      
+   <!-- Vendor scripts -->
+   <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+	<script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="libs/jquery.validate/jquery.validate.js"></script>
+   
+   <!-- User scripts -->
+   <script src="js/navigation.js"></script>
+   <script src="js/main.js"></script>
+    
+</body>
+</html>
